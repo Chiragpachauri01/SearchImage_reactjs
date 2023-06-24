@@ -1,0 +1,54 @@
+.search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .user-card {
+    position: relative;
+    width: 200px;
+  
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .id {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+    border-radius: 100%;
+  }
+  
+  .image-container {
+display: flex;
+    text-align: center;
+    border: 2px solid #ccc;
+justify-content: space-around;
+border-radius: 10px;
+  }
+  
+  .image {
+    width:90%;
+height: 145px;
+    border-radius: 14px;
+    margin: 20px 20px;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
